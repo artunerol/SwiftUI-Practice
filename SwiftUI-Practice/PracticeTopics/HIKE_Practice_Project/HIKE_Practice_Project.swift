@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HIKE_Practice_Project: View {
     var body: some View {
-        Text("Hike will be here")
+        CardView()
     }
 }
 
