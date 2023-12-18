@@ -13,9 +13,9 @@ struct GenericScreen: View {
     var body: some View {
         switch screenToShow {
         case .test:
-            Text("akjsd")
-        case .test2:
-            Text("mcvlbkm")
+            Text("This is my TestScreen")
+        case .hikeProject:
+            HIKE_Practice_Project()
         case .asyncImage:
             AsyncImage_Practice()
         }

@@ -15,8 +15,8 @@ struct NextScreenRow: View {
             switch screenName {
             case .test:
                 Text("Test Screen")
-            case .test2:
-                Text("Test Screen 2")
+            case .hikeProject:
+                Text("HIKE Project")
             case .asyncImage:
                 Text("Async Image Practice")
             }

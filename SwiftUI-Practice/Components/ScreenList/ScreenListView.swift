@@ -13,12 +13,12 @@ enum ScreenEnum: CaseIterable, Identifiable {
     }
     
     case test
-    case test2
+    case hikeProject
     case asyncImage
 }
 
 struct ScreenListView: View {
-    func getScreenEnumCaseArray() -> [ScreenEnum] {
+    private func getScreenEnumCaseArray() -> [ScreenEnum] {
         var screenEnumArray: [ScreenEnum] = []
         ScreenEnum.allCases.forEach { screenEnum in
             screenEnumArray.append(screenEnum)
