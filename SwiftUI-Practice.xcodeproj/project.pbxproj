@@ -104,7 +104,6 @@
 		8339205E2B3040FA009E82E6 /* SwiftUI-Practice */ = {
 			isa = PBXGroup;
 			children = (
-				8339209B2B305729009E82E6 /* GenericScreen */,
 				833920942B304DF5009E82E6 /* Components */,
 				8339208D2B3043D4009E82E6 /* Navigation */,
 				833920892B3042C1009E82E6 /* PracticeTopics */,
@@ -184,6 +183,7 @@
 		833920942B304DF5009E82E6 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				8339209B2B305729009E82E6 /* GenericScreen */,
 				833920952B304DFB009E82E6 /* ScreenList */,
 				833920912B304550009E82E6 /* NextScreenRow */,
 			);
