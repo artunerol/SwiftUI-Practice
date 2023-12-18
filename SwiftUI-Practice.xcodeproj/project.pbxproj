@@ -104,11 +104,10 @@
 		8339205E2B3040FA009E82E6 /* SwiftUI-Practice */ = {
 			isa = PBXGroup;
 			children = (
+				8339209E2B305B83009E82E6 /* Main */,
 				833920942B304DF5009E82E6 /* Components */,
 				8339208D2B3043D4009E82E6 /* Navigation */,
 				833920892B3042C1009E82E6 /* PracticeTopics */,
-				8339205F2B3040FA009E82E6 /* SwiftUI_PracticeApp.swift */,
-				833920612B3040FA009E82E6 /* ContentView.swift */,
 				833920632B3040FA009E82E6 /* Assets.xcassets */,
 				833920652B3040FA009E82E6 /* Preview Content */,
 			);
@@ -204,6 +203,15 @@
 				8339209C2B305734009E82E6 /* GenericScreen.swift */,
 			);
 			path = GenericScreen;
+			sourceTree = "<group>";
+		};
+		8339209E2B305B83009E82E6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8339205F2B3040FA009E82E6 /* SwiftUI_PracticeApp.swift */,
+				833920612B3040FA009E82E6 /* ContentView.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
