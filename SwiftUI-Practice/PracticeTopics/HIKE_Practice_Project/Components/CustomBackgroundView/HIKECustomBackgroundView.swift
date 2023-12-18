@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CustomBackgroundView: View {
+struct HIKECustomBackgroundView: View {
     var body: some View {
         ZStack {
             // MARK: - 3. Depth
@@ -36,7 +36,7 @@ struct CustomBackgroundView: View {
 
 struct CustomBackgroundView_Previews: PreviewProvider {
     static var previews: some View {
-        CustomBackgroundView()
+        HIKECustomBackgroundView()
             .padding()
     }
 }

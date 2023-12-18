@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HIKE_Practice_Project: View {
     var body: some View {
-        CardView()
+        HIKECardView()
     }
 }
 
