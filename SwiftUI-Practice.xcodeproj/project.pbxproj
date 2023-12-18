@@ -19,6 +19,7 @@
 		833920972B304E0D009E82E6 /* ScreenListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833920962B304E0D009E82E6 /* ScreenListView.swift */; };
 		8339209A2B3056E4009E82E6 /* AsyncImage_Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833920992B3056E4009E82E6 /* AsyncImage_Practice.swift */; };
 		8339209D2B305734009E82E6 /* GenericScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8339209C2B305734009E82E6 /* GenericScreen.swift */; };
+		833920A12B305E74009E82E6 /* Image+Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833920A02B305E74009E82E6 /* Image+Modifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		833920962B304E0D009E82E6 /* ScreenListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenListView.swift; sourceTree = "<group>"; };
 		833920992B3056E4009E82E6 /* AsyncImage_Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage_Practice.swift; sourceTree = "<group>"; };
 		8339209C2B305734009E82E6 /* GenericScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericScreen.swift; sourceTree = "<group>"; };
+		833920A02B305E74009E82E6 /* Image+Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Modifier.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		8339205E2B3040FA009E82E6 /* SwiftUI-Practice */ = {
 			isa = PBXGroup;
 			children = (
+				8339209F2B305E54009E82E6 /* Extensions */,
 				8339209E2B305B83009E82E6 /* Main */,
 				833920942B304DF5009E82E6 /* Components */,
 				8339208D2B3043D4009E82E6 /* Navigation */,
@@ -212,6 +215,14 @@
 				833920612B3040FA009E82E6 /* ContentView.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		8339209F2B305E54009E82E6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				833920A02B305E74009E82E6 /* Image+Modifier.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,6 +359,7 @@
 				833920972B304E0D009E82E6 /* ScreenListView.swift in Sources */,
 				833920902B30441B009E82E6 /* NavigationModel.swift in Sources */,
 				8339209D2B305734009E82E6 /* GenericScreen.swift in Sources */,
+				833920A12B305E74009E82E6 /* Image+Modifier.swift in Sources */,
 				833920932B3045D0009E82E6 /* NextScreenRow.swift in Sources */,
 				833920602B3040FA009E82E6 /* SwiftUI_PracticeApp.swift in Sources */,
 				8339209A2B3056E4009E82E6 /* AsyncImage_Practice.swift in Sources */,
