@@ -17,14 +17,23 @@ struct HIKECardView: View {
                 // MARK: - Header
                 
                 VStack(alignment: .leading) {
-                    Text("Hiking")
-                        .fontWeight(.black)
-                        .font(.system(size: 52))
-                        .foregroundStyle(LinearGradient(colors: [Color.customGrayLight,
-                                                                 Color.customGrayMedium
-                                                                ],
-                                                        startPoint: .top,
-                                                    endPoint: .bottom))
+                    HStack {
+                        Text("Hiking")
+                            .fontWeight(.black)
+                            .font(.system(size: 52))
+                            .foregroundStyle(LinearGradient(colors: [Color.customGrayLight,
+                                                                     Color.customGrayMedium
+                                                                    ],
+                                                            startPoint: .top,
+                                                            endPoint: .bottom))
+                        
+                        Button {
+                            print("Button pressed")
+                        } label: {
+                            Text("Button")
+                        }
+                    }
+
                     Text("Fun and enjoyable outdoor activity for friends and families.")
                         .italic()
                         .foregroundColor(.customGrayMedium)

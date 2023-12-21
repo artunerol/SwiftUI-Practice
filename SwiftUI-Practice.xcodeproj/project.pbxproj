@@ -23,6 +23,7 @@
 		833920A82B3080F6009E82E6 /* HIKECustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833920A72B3080F6009E82E6 /* HIKECustomBackgroundView.swift */; };
 		833920AB2B308220009E82E6 /* Color+CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833920AA2B308220009E82E6 /* Color+CustomColors.swift */; };
 		833920B02B308471009E82E6 /* HIKECardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833920AF2B308471009E82E6 /* HIKECardView.swift */; };
+		837414582B34677B008D1997 /* HIKECustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837414572B34677B008D1997 /* HIKECustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		833920A72B3080F6009E82E6 /* HIKECustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HIKECustomBackgroundView.swift; sourceTree = "<group>"; };
 		833920AA2B308220009E82E6 /* Color+CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+CustomColors.swift"; sourceTree = "<group>"; };
 		833920AF2B308471009E82E6 /* HIKECardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HIKECardView.swift; sourceTree = "<group>"; };
+		837414572B34677B008D1997 /* HIKECustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HIKECustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +230,7 @@
 		833920A52B3080BA009E82E6 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				837414562B34676A008D1997 /* CustomButton */,
 				833920AE2B308468009E82E6 /* CardView */,
 				833920A62B3080E4009E82E6 /* CustomBackgroundView */,
 			);
@@ -256,6 +259,14 @@
 				833920AF2B308471009E82E6 /* HIKECardView.swift */,
 			);
 			path = CardView;
+			sourceTree = "<group>";
+		};
+		837414562B34676A008D1997 /* CustomButton */ = {
+			isa = PBXGroup;
+			children = (
+				837414572B34677B008D1997 /* HIKECustomButton.swift */,
+			);
+			path = CustomButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -389,6 +400,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				833920622B3040FA009E82E6 /* ContentView.swift in Sources */,
+				837414582B34677B008D1997 /* HIKECustomButton.swift in Sources */,
 				833920A42B306658009E82E6 /* HIKE_Practice_Project.swift in Sources */,
 				833920972B304E0D009E82E6 /* ScreenListView.swift in Sources */,
 				8339209D2B305734009E82E6 /* GenericScreen.swift in Sources */,
