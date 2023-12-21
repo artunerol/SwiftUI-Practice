@@ -27,27 +27,28 @@ struct HIKECardView: View {
                                                             startPoint: .top,
                                                             endPoint: .bottom))
                         
+                        Spacer()
+                        
                         Button {
                             print("Button pressed")
                         } label: {
-                            Text("Button")
+                            HIKECustomButton()
                         }
                     }
 
                     Text("Fun and enjoyable outdoor activity for friends and families.")
                         .italic()
                         .foregroundColor(.customGrayMedium)
-                        .padding(.trailing, 16)
                 }
-                .padding(.leading, 30)
+                .padding(.horizontal, 16)
                 
                 // MARK: - Main Content
                 
                 ZStack {
                     Circle()
                         .fill(
-                            LinearGradient(colors: [Color("ColorIndigoMedium"),
-                                               Color("ColorSalmonLight")],
+                            LinearGradient(colors: [.customIndigoMedium,
+                                                    .customGreenLight],
                                        startPoint: .topLeading,
                                        endPoint: UnitPoint.bottomTrailing))
                         .frame(width: 256, height: 256)

@@ -7,10 +7,11 @@
 
 import SwiftUI
 
-struct AsyncImage_Practice: View {
+struct AsyncImage_Practice: View, MainView {
     private let imageURL: String = "https://credo.academy/credo-academy@3x.png"
     var body: some View {
-        AsyncImage(url: URL(string: imageURL), transaction: Transaction(animation: .spring())) { phase in
+        setupLogger()
+        return AsyncImage(url: URL(string: imageURL), transaction: Transaction(animation: .spring())) { phase in
             switch phase {
             case .success(let image):
                 image

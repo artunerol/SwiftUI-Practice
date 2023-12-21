@@ -7,9 +7,10 @@
 
 import SwiftUI
 
-struct HIKE_Practice_Project: View {
+struct HIKE_Practice_Project: View, MainView {
     var body: some View {
-        HIKECardView()
+        setupLogger()
+        return HIKECardView()
     }
 }
 

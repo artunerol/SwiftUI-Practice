@@ -24,6 +24,8 @@
 		833920AB2B308220009E82E6 /* Color+CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833920AA2B308220009E82E6 /* Color+CustomColors.swift */; };
 		833920B02B308471009E82E6 /* HIKECardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833920AF2B308471009E82E6 /* HIKECardView.swift */; };
 		837414582B34677B008D1997 /* HIKECustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837414572B34677B008D1997 /* HIKECustomButton.swift */; };
+		8374145B2B346C7A008D1997 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8374145A2B346C7A008D1997 /* Logger.swift */; };
+		837414602B3477F7008D1997 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8374145F2B3477F7008D1997 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,8 @@
 		833920AA2B308220009E82E6 /* Color+CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+CustomColors.swift"; sourceTree = "<group>"; };
 		833920AF2B308471009E82E6 /* HIKECardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HIKECardView.swift; sourceTree = "<group>"; };
 		837414572B34677B008D1997 /* HIKECustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HIKECustomButton.swift; sourceTree = "<group>"; };
+		8374145A2B346C7A008D1997 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		8374145F2B3477F7008D1997 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +181,7 @@
 		833920942B304DF5009E82E6 /* MainComponents */ = {
 			isa = PBXGroup;
 			children = (
+				8374145E2B3477EC008D1997 /* MainView */,
 				8339209B2B305729009E82E6 /* GenericScreen */,
 				833920952B304DFB009E82E6 /* ScreenList */,
 				833920912B304550009E82E6 /* NextScreenRow */,
@@ -248,6 +253,7 @@
 		833920A92B3081F4009E82E6 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				837414592B346C3F008D1997 /* Logger */,
 				8339209F2B305E54009E82E6 /* Extensions */,
 			);
 			path = Utility;
@@ -267,6 +273,22 @@
 				837414572B34677B008D1997 /* HIKECustomButton.swift */,
 			);
 			path = CustomButton;
+			sourceTree = "<group>";
+		};
+		837414592B346C3F008D1997 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				8374145A2B346C7A008D1997 /* Logger.swift */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		8374145E2B3477EC008D1997 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				8374145F2B3477F7008D1997 /* MainView.swift */,
+			);
+			path = MainView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -400,6 +422,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				833920622B3040FA009E82E6 /* ContentView.swift in Sources */,
+				837414602B3477F7008D1997 /* MainView.swift in Sources */,
 				837414582B34677B008D1997 /* HIKECustomButton.swift in Sources */,
 				833920A42B306658009E82E6 /* HIKE_Practice_Project.swift in Sources */,
 				833920972B304E0D009E82E6 /* ScreenListView.swift in Sources */,
@@ -408,6 +431,7 @@
 				833920932B3045D0009E82E6 /* NextScreenRow.swift in Sources */,
 				833920A82B3080F6009E82E6 /* HIKECustomBackgroundView.swift in Sources */,
 				833920602B3040FA009E82E6 /* SwiftUI_PracticeApp.swift in Sources */,
+				8374145B2B346C7A008D1997 /* Logger.swift in Sources */,
 				833920AB2B308220009E82E6 /* Color+CustomColors.swift in Sources */,
 				833920B02B308471009E82E6 /* HIKECardView.swift in Sources */,
 				8339209A2B3056E4009E82E6 /* AsyncImage_Practice.swift in Sources */,
