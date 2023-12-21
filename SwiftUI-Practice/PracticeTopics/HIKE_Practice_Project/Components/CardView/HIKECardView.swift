@@ -34,7 +34,7 @@ struct HIKECardView: View {
                             HIKECustomButton()
                         }
                     }
-
+                    
                     Text("Fun and enjoyable outdoor activity for friends and families.")
                         .italic()
                         .foregroundColor(.customGrayMedium)
@@ -42,14 +42,14 @@ struct HIKECardView: View {
                 .padding(.horizontal, 16)
                 
                 // MARK: - Main Content
-
+                
                 ZStack {
                     Circle()
                         .fill(
                             LinearGradient(colors: [.customIndigoMedium,
                                                     .customGreenLight],
-                                       startPoint: .topLeading,
-                                       endPoint: UnitPoint.bottomTrailing))
+                                           startPoint: .topLeading,
+                                           endPoint: UnitPoint.bottomTrailing))
                         .frame(width: 256, height: 256)
                     
                     Image("boyWithMap")
@@ -60,9 +60,9 @@ struct HIKECardView: View {
                     print("askjdnasd")
                 }
                 .modifier(GradientView(foregroundColors: [.customGreenLight,
-                                                            .customGreenMedium],
-                                         backgroundColors: [.customGrayLight,
-                                                            .customGrayMedium]))
+                                                          .customGreenMedium],
+                                       backgroundColors: [.customGrayLight,
+                                                          .customGrayMedium]))
             }
         }
         .frame(width: 320, height: 570)
