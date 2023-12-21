@@ -12,10 +12,9 @@ struct HIKECardView: View {
         ZStack {
             HIKECustomBackgroundView()
             
+            // MARK: - Header
+            
             VStack {
-                
-                // MARK: - Header
-                
                 VStack(alignment: .leading) {
                     HStack {
                         Text("Hiking")
@@ -43,7 +42,7 @@ struct HIKECardView: View {
                 .padding(.horizontal, 16)
                 
                 // MARK: - Main Content
-                
+
                 ZStack {
                     Circle()
                         .fill(
@@ -56,6 +55,14 @@ struct HIKECardView: View {
                     Image("boyWithMap")
                         .imageModifier()
                 }
+                
+                Button("Explore More") {
+                    print("askjdnasd")
+                }
+                .modifier(GradientView(foregroundColors: [.customGreenLight,
+                                                            .customGreenMedium],
+                                         backgroundColors: [.customGrayLight,
+                                                            .customGrayMedium]))
             }
         }
         .frame(width: 320, height: 570)
