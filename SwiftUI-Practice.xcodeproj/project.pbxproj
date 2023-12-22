@@ -27,6 +27,8 @@
 		8374145B2B346C7A008D1997 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8374145A2B346C7A008D1997 /* Logger.swift */; };
 		837414602B3477F7008D1997 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8374145F2B3477F7008D1997 /* MainView.swift */; };
 		837414632B34833B008D1997 /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837414622B34833B008D1997 /* ViewModifiers.swift */; };
+		837414662B35B1F5008D1997 /* HIKECustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837414652B35B1F5008D1997 /* HIKECustomCircleView.swift */; };
+		8374146B2B35B5C1008D1997 /* HIKEBubleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8374146A2B35B5C1008D1997 /* HIKEBubleAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,8 @@
 		8374145A2B346C7A008D1997 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		8374145F2B3477F7008D1997 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		837414622B34833B008D1997 /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
+		837414652B35B1F5008D1997 /* HIKECustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HIKECustomCircleView.swift; sourceTree = "<group>"; };
+		8374146A2B35B5C1008D1997 /* HIKEBubleAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HIKEBubleAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,6 +241,8 @@
 		833920A52B3080BA009E82E6 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				837414672B35B59D008D1997 /* BubbleAnimation */,
+				837414642B35B1E6008D1997 /* CustomCircleView */,
 				837414562B34676A008D1997 /* CustomButton */,
 				833920AE2B308468009E82E6 /* CardView */,
 				833920A62B3080E4009E82E6 /* CustomBackgroundView */,
@@ -300,6 +306,22 @@
 				837414622B34833B008D1997 /* ViewModifiers.swift */,
 			);
 			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		837414642B35B1E6008D1997 /* CustomCircleView */ = {
+			isa = PBXGroup;
+			children = (
+				837414652B35B1F5008D1997 /* HIKECustomCircleView.swift */,
+			);
+			path = CustomCircleView;
+			sourceTree = "<group>";
+		};
+		837414672B35B59D008D1997 /* BubbleAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				8374146A2B35B5C1008D1997 /* HIKEBubleAnimation.swift */,
+			);
+			path = BubbleAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -443,9 +465,11 @@
 				833920932B3045D0009E82E6 /* NextScreenRow.swift in Sources */,
 				833920A82B3080F6009E82E6 /* HIKECustomBackgroundView.swift in Sources */,
 				833920602B3040FA009E82E6 /* SwiftUI_PracticeApp.swift in Sources */,
+				8374146B2B35B5C1008D1997 /* HIKEBubleAnimation.swift in Sources */,
 				8374145B2B346C7A008D1997 /* Logger.swift in Sources */,
 				833920AB2B308220009E82E6 /* Color+CustomColors.swift in Sources */,
 				833920B02B308471009E82E6 /* HIKECardView.swift in Sources */,
+				837414662B35B1F5008D1997 /* HIKECustomCircleView.swift in Sources */,
 				8339209A2B3056E4009E82E6 /* AsyncImage_Practice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

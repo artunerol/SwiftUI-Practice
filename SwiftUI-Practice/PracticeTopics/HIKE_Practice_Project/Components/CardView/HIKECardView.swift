@@ -7,7 +7,21 @@
 
 import SwiftUI
 
+private enum HIKECardImageEnum: String, CaseIterable {
+    case boyWithMap
+    case boy2
+    case boy3
+    case girl1
+    case girl2
+}
+
 struct HIKECardView: View {
+    @State private var contentImage: HIKECardImageEnum = .boyWithMap
+    
+    private func getRandomImage() {
+        contentImage = HIKECardImageEnum.allCases.randomElement() ?? .boyWithMap
+    }
+    
     var body: some View {
         ZStack {
             HIKECustomBackgroundView()
@@ -21,8 +35,7 @@ struct HIKECardView: View {
                             .fontWeight(.black)
                             .font(.system(size: 52))
                             .foregroundStyle(LinearGradient(colors: [Color.customGrayLight,
-                                                                     Color.customGrayMedium
-                                                                    ],
+                                                                     Color.customGrayMedium],
                                                             startPoint: .top,
                                                             endPoint: .bottom))
                         
@@ -44,20 +57,14 @@ struct HIKECardView: View {
                 // MARK: - Main Content
                 
                 ZStack {
-                    Circle()
-                        .fill(
-                            LinearGradient(colors: [.customIndigoMedium,
-                                                    .customGreenLight],
-                                           startPoint: .topLeading,
-                                           endPoint: UnitPoint.bottomTrailing))
-                        .frame(width: 256, height: 256)
+                    HIKECustomCircleView()
                     
-                    Image("boyWithMap")
+                    Image(contentImage.rawValue)
                         .imageModifier()
                 }
                 
                 Button("Explore More") {
-                    print("askjdnasd")
+                    getRandomImage()
                 }
                 .modifier(GradientView(foregroundColors: [.customGreenLight,
                                                           .customGreenMedium],
