@@ -20,6 +20,7 @@ enum ScreenEnum: CaseIterable, Identifiable {
 struct ScreenListView: View {
     private func getScreenEnumCaseArray() -> [ScreenEnum] {
         var screenEnumArray: [ScreenEnum] = []
+        
         ScreenEnum.allCases.forEach { screenEnum in
             screenEnumArray.append(screenEnum)
         }
@@ -35,7 +36,15 @@ struct ScreenListView: View {
                     NextScreenRow(screenName: screenEnum)
                 }
             }
+            .scrollContentBackground(.hidden)
             .navigationTitle("Screens")
+            .background(
+                Image("adessoBackground")
+                    .resizable()
+                    .ignoresSafeArea()
+                    .padding(.top, 0)
+                    .padding(.bottom, 0)
+            )
         }
     }
 }
